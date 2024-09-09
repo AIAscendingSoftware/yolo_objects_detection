@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8x.pt')
 
 # Open video feed
-video_path = r"E:\AI Ascending Software\AS AI Projects\AI facial analysis\videos for AI facial anlysis\walking.mp4"
+video_path = r"D:\downloads from chrome\WhatsApp Video 2024-08-30 at 21.13.04 (3).mp4"
 cap = cv2.VideoCapture(video_path)
 
 while cap.isOpened():

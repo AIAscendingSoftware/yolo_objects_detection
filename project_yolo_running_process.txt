@@ -5,3 +5,4 @@ pip install -U -r requirements.txt
 pip install numpy==1.24.0  
 pip install torch==2.3.0 
 pip install torchvision==0.18.0
+yolov5x,yolov5s etc files are in local
