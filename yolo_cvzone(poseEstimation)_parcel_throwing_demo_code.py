@@ -8,8 +8,7 @@ import time
 model = YOLO("yolov8n-pose.pt")
 
 # Path to the video file
-video_path = r"E:\AI Ascending Software\AS AI Projects\AI PackageGuard\AI-PackageGuard\yolo\videos\WhatsApp Video 2024-08-30 at 21.13.04 (3).mp4"
-
+video_path = r"E:\AI Ascending Software\AS AI Projects\AI PackageGuard\AI-PackageGuard\yolo\videos\WhatsApp Video 2024-08-30 at 21.13.02 (2).mp4"
 # Open the video file
 cap = cv2.VideoCapture(video_path)
 
